@@ -4,7 +4,7 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 
-const {BlogPosts} = require('./models');
+const {BlogPosts} = require('./model');
 
 // convenience function for generating lorem text for blog
 // posts we initially add below

@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: NLy5jomgS1twns1slUczK/ej6Ck88quhk/h04TXZ2nTUv8pvPCqqAxxem9tJpARatHfGhCVQHV9TfQofKVql1bsPXQqqyU8fqU3f+/J+JQYOiR6qXJmTBEuYeM3XOj8hY0pw4eKIGDyuHGKuu+umItVDMBQvQ46ew4pNZoBH1/s30ONPEK9bw2xr/CXeNgsGFYbHQ8qPm/6YIYcQed9GWRdI9OqeJw4ESfRGUuRYV6MVe3mGVvLynoOnj3lHcYD4nkwKxrhPVLvnVnx0XKmiLCPQRCeGXJJxi7Jnm+e7UPrWW8+LxQ7JqqU+bqRTZ6ZHWWnW/0kFpb2+SNggtkIFiHcxeGfPFo8RA7flPrdabm2XaCHyuo1waE8rr6EIOr+0LxKDZ23SoDyFmCcuEl3xrWPredF9bODtB5vAXUZiIbAlFNMfo9UVkrV/WgEsXEMC47b3wEBWq3gb4dmQgUIotyOVJUg76B3sD3+09UFg2UBZ+5IbQ7xNy2swkWLVSrDLezdW3eTIaiiW5+YGNF6m4FZEicmT473850V2zYLENWvQzGBKQ79Kbv856C/cnGYA0fqrb3syo5lhemg+Sb3Jxdj9FKaTuf6pB6xfvTTEBm2b0IDo7qJx5PbeLw7QVcapxKWNoHSZkXKpLUpLK4asuoxh63gYWgWRmn4vM+UQ6LA=
+  app: mighty-brook-77609
+  on:
+    repo: saaderana/blog-app-integrate
